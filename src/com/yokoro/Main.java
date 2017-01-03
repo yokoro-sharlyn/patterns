@@ -1,6 +1,7 @@
 package com.yokoro;
 
 import com.yokoro.decorator.DecoratorMain;
+import com.yokoro.facade.FacadeMain;
 
 public class Main {
 
@@ -8,5 +9,6 @@ public class Main {
 	// write your code here
 
         new DecoratorMain().show();
+        new FacadeMain().show();
     }
 }
