@@ -1,4 +1,4 @@
-package com.yokoro.facade;
+package com.yokoro.structural.facade;
 
 /**
  * Created by Alexander_Topilskii on 1/3/2017.

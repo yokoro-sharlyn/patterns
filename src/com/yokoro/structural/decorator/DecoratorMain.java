@@ -1,4 +1,4 @@
-package com.yokoro.decorator;
+package com.yokoro.structural.decorator;
 
 /**
  * Created by Alexander_Topilskii on 1/3/2017.

@@ -1,9 +1,9 @@
-package com.yokoro.facade;
+package com.yokoro.structural.facade;
 
 /**
  * Created by Alexander_Topilskii on 1/3/2017.
  */
-public class ElementSystem1 {
+public class ElementSystem3 {
     public void lowLevelDoSomething() {
         System.out.println(this.getClass().getSimpleName() + " Low level do something");
     }

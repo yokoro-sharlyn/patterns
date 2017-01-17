@@ -1,4 +1,4 @@
-package com.yokoro.decorator;
+package com.yokoro.structural.decorator;
 
 
 public class ConcreteDecorator2 implements Decorator {

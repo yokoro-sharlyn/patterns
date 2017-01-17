@@ -1,12 +1,12 @@
-package com.yokoro.decorator;
+package com.yokoro.structural.decorator;
 
-
-public class ConcreteDecorator3 implements Decorator {
+public class ConcreteDecorator1 implements Decorator {
     Component component;
 
-    public ConcreteDecorator3(Component c){
+    public ConcreteDecorator1(Component c){
         setComponent(c);
     }
+
     @Override
     public void setComponent(Component c) {
         this.component = c;
@@ -19,11 +19,11 @@ public class ConcreteDecorator3 implements Decorator {
     }
 
     private void doConcreteSomething() {
-        System.out.println("ConcreteDecorator3 do something");
+        System.out.println("ConcreteDecorator1 do something");
     }
 
     @Override
     public double getSomeValue() {
-        return component.getSomeValue() + 3;
+        return component.getSomeValue() + 1;
     }
 }

@@ -1,6 +1,4 @@
-package com.yokoro.decorator;
-
-import java.util.ArrayList;
+package com.yokoro.structural.decorator;
 
 
 public class ConcreteComponent implements Component {

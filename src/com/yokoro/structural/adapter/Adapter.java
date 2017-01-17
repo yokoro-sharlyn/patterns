@@ -1,4 +1,4 @@
-package com.yokoro.adapter;
+package com.yokoro.structural.adapter;
 
 
 
